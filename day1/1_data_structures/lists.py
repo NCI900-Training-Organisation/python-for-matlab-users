@@ -99,3 +99,34 @@ This reassigns my_list to a new empty list, which effectively clears its content
 print(my_list)
 my_list.clear()
 print(my_list)
+
+'''
+List comprehension is a concise and elegant way to create lists in Python. It allows you to generate
+a new list by applying an expression to each element in an existing iterable (such as a list, range,
+or another collection), optionally including a condition to filter elements.
+'''
+
+# Simple List Comprehension
+
+squares = [x ** 2 for x in range(10)]
+print(squares)
+# Output: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+# Using a Condition
+
+evens = [x for x in range(10) if x % 2 == 0]
+print(evens)
+# Output: [0, 2, 4, 6, 8]
+
+# Applying a Transformation
+
+words = ["apple", "banana", "cherry"]
+uppercase_words = [word.upper() for word in words]
+print(uppercase_words)
+# Output: ['APPLE', 'BANANA', 'CHERRY']
+
+# Nested List Comprehension
+
+pairs = [(x, y) for x in range(1, 4) for y in range(1, 4)]
+print(pairs)
+
