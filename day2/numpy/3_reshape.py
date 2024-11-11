@@ -55,6 +55,8 @@ print("\n Resize : ")
 print(arr)
 
 
+############## Additional information  ############## 
+
 # expand
 # Original 1D array
 arr = np.array([1, 2, 3])
