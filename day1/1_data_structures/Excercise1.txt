@@ -1,5 +1,0 @@
-1. Create a list of 3 datapoints
-2. Each student datapoint is a dictionary 
-   1. Location {str: tuple(latitude, longitude)}
-   2. Country {str: str}
-   3. Feature {str: List[pressure, temp, wind]}
